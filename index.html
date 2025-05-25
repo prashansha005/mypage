@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prashansha Neupane | Portfolio</title>
+  <style>
+    /* Reset some defaults */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #6c63ff;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    .about,
+    .projects,
+    .contact {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: #6c63ff;
+      margin-bottom: 1rem;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .project {
+      background: #fff;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      transition: transform 0.2s ease;
+    }
+
+    .project:hover {
+      transform: scale(1.02);
+      border-color: #6c63ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: #fff;
+    }
+
+    a {
+      color: #6c63ff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Prashansha Neupane</h1>
+    <p>Web Developer | Designer | Learner</p>
+  </header>
+
+  <div class="container">
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Prashansha, a passionate front-end web developer and designer focused on creating clean and user-friendly experiences. I enjoy learning new technologies and continuously improving my skills.
+      </p>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio showcasing my projects, skills, and contact information.</p>
+        </div>
+        <div class="project">
+          <h3>To-Do App</h3>
+          <p>A simple task management app built using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+          <h3>Weather App</h3>
+          <p>Fetches and displays current weather data using an API.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:prashansha@example.com">prashansha@example.com</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/prashansha</a></p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Prashansha Neupane. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
